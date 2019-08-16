@@ -1,0 +1,222 @@
+.App {
+  margin: 0;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+
+
+
+
+/* Header */
+header {
+  width: 100%;
+  height: 33%;
+  background: black;
+  color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.converter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 28px;
+  margin-bottom: 6px;
+  margin-top: 7px;
+}
+.date {
+  margin-right: 75px;
+  height: 110px;
+}
+
+
+
+
+
+/* Section */
+section {
+  width: 100%;
+  height: 67%;
+}
+
+
+
+
+
+/* Converter currency */
+.units {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 110px;
+  margin-left: 75px;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 0;
+  font-weight: bold;
+  color: yellow;
+  text-shadow: 3px 4px 4px rgba(255, 255, 0, 0.5);
+}
+p {
+  margin: 10px;
+  color: yellow;
+}
+
+.input_value {
+  width: 125px;
+  margin: 4px;
+  background: black;
+  border: none;
+  outline: none;
+  color: yellow;
+}
+.result {
+  margin: 3px;
+}
+
+#convert-from {
+  width: 30px;
+  margin: 3px;
+  background: black;
+  border: none;
+  color: yellow;
+}
+#convert-to {
+  width: 30px;
+  margin: 3px;
+  background: black;
+  border: none;
+  color: yellow;
+}
+
+
+
+
+
+/* Calculator */
+.calculator {
+  width: 100%;
+  height: 100%;
+  background: rgb(255, 230, 0);
+}
+.calculator h1 {
+  padding-top: 25px;
+  margin: 0;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  text-shadow: 3px 4px 6px rgba(0, 0, 0, 0.8);
+}
+textarea {
+  resize: none;
+  background: black;
+  color: yellow;
+  font-size: 18px;
+  padding: 10px;
+  margin-top: 25px;
+  border-radius: 15px 15px;
+  border: none;
+  outline: none;
+  box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.9);
+}
+
+.textarea_info {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: yellow;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px 10px;
+  outline: none;
+  transform: translate(274px, -405px);
+}
+.textarea_info:active {
+  background: black;
+  color: white;
+}
+.btn_reset {
+  position: absolute;
+  width: 100px;
+  height: 25px;
+  background: yellow;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px 10px;
+  outline: none;
+  transform: translate(-111px, 312px);
+}
+.btn_reset:active {
+  background: black;
+  color: white;
+}
+
+
+
+
+/* Popup */
+.popup {  
+  position: fixed;  
+  width: 100%;  
+  height: 100%;  
+  top: 0;  
+  left: 0;  
+  right: 0;  
+  bottom: 0;  
+  margin: auto;  
+  background-color: rgba(0, 0, 0, 0.9);  
+}  
+.popup\_inner {  
+  position: absolute;  
+  left: 25%;  
+  right: 25%;  
+  top: 25%;  
+  bottom: 25%;  
+  margin: auto;  
+  border-radius: 20px;  
+  background: white;  
+}
+
+.popup_text {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  color: yellow;
+}
+
+.popup_text h4 {
+  font-size: 16px;
+}
+.popup_text p {
+  font-size: 12px;
+}
+
+.popup_box {
+  margin: 15px;
+}
+
+.popup_button {
+  width: 100px;
+  height: 25px;
+  background: yellow;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px 10px;
+  outline: none;
+}
+.popup_button:active {
+  background: black;
+  color: white;
+}
+
